@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    h3{
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: italic;
+    }
+    button{
+      width: 25%;
+      height: 5vh;
+      border-radius: 50%;
+      color:white;
+      background-color:black;
+
+    }
+    a{
+      text-decoration:none;
+      font-size: x-large;
+      color:white;
+      font-style: italic;
+    }
+    #image{
+      width: 25%;
+      height: 20vh;
+      display:flex;
+      justify-content:space-evenly;
+      
+    }
+    #add_products{
+      display: flex;
+      justify-content:space-evenly;
+    }
+
+  </style>
+  <body>
+    <div id="navbar">
+      <button id="add_more_product"><a href='index.html'>Add More Products</a></button>
+      <!--Create Add More Product button here, give id as "add_more_product". avoid making spelling mistakes in HTML id's-->
+    </div>
+    <div id="all_products">
+      <!--append all products data here in grid format-->
+      <!-- The Remove Product button will have id as "remove_product" -->
+    </div>
+  </body>
+</html>
+
+<script src="./scripts/inventory.js"></script>
